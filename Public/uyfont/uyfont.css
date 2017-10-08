@@ -1,0 +1,8 @@
+*{
+    font-family: "ajayip";
+}
+
+@font-face{
+    font-family: 'ajayip';
+    src: url('UKIJEkran.eot?#iefix') format('embedded-opentype'), url('UKIJEkran.woff') format('woff'), url('UKIJEkran.ttf') format('truetype'), url('UKIJEkran.svg#glyphicons_halflingsregular') format('svg');
+}

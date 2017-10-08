@@ -1,0 +1,46 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/Think/Public/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/Think/Public/bootstrap/dist/css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="/Think/Public/uyfont/uyfont.css">
+
+
+</head>
+<body>
+<div class="row" style="padding-top:60px;">
+    <div class="col-md-4 col-md-offset-4">
+        <form class="form-horizontal" action="<?php echo U('Login/loginhandler');?>" method="post">
+            <div class="form-group">
+                <label class="col-sm-3 control-label" style="text-align: right">ئەزا نامى</label>
+                <div class="col-sm-9">
+                    <input type="text" name="user_name" class="form-control"  placeholder="ئەزا نامى">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword3" class="col-sm-3 control-label" style="text-align: right">مەخپى نۇمۇر</label>
+                <div class="col-sm-9">
+                    <input type="password" name="password" class="form-control" id="inputPassword3" placeholder="مەخپى نۇمۇر">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> ئەستە تۇتۇش
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">كىرىش</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
